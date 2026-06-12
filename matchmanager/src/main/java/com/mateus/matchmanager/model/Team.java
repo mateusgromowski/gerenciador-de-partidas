@@ -18,4 +18,16 @@ public class Team {
     private int victories;
     private int draws;
     private int losses;
+
+    public void draw() {
+        this.draws++;
+    }
+
+    public void loss() {
+        this.losses++;
+    }
+
+    public void victory() {
+        this.victories++;
+    }
 }

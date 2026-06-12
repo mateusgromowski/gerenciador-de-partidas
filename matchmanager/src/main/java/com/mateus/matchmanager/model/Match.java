@@ -24,4 +24,5 @@ public class Match {
 
     private int homeGoals;
     private int visitorGoals;
+    
 }
