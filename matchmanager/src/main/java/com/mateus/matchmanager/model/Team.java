@@ -21,6 +21,7 @@ public class Team {
 
     public void draw() {
         this.draws++;
+        this.points += 1;
     }
 
     public void loss() {
@@ -29,5 +30,6 @@ public class Team {
 
     public void victory() {
         this.victories++;
+        this.points += 3;
     }
 }

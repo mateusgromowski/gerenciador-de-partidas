@@ -1,5 +1,5 @@
 package com.mateus.matchmanager.service;
 
-public class TeamService {
+public class TeamServiceTest {
 
 }
